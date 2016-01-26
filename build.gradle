@@ -28,6 +28,6 @@ jar {
 }
 
 test {
-    include 'demo/tasks/TaskTest.class'
-    exclude 'demo/tasks/IntegrationTest.class'
+    include 'demo.tasks.TasksTest'
+    exclude 'demo.tasks.IntegrationTest'
 }
